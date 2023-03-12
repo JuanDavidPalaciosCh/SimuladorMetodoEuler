@@ -42,8 +42,8 @@ Solución específica:
                          -cos(x)
 y(x) = 2.71828182845905⋅ℯ
 
-(https://github.com/JuanDavidPalaciosCh/SimuladorMetodoEuler/assets/example.jpg)
 ```
+![Visualizador Matplotlib](https://github.com/JuanDavidPalaciosCh/SimuladorMetodoEuler/blob/main/assets/example.jpg)
 
 <a name="technologies"></a>
 ### Tecnologías
