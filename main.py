@@ -7,14 +7,15 @@ def main():
 
     while True:
         try:
-            f: str = input("Ingrese la función: y'=")
+            f: str = input("Ingrese la función: y'= ")
             x0: float = float(input("Ingrese el valor inicial de x: "))
             y0: float = float(input("Ingrese el valor inicial de y: "))
             delta_x = float(input("Ingrese el valor de Δx: "))
             n_max = float(input("Ingrese el valor de x en la que se desea graficar: "))
+            print("\n")
         except ValueError:
             os.system("cls")
-            print("Los valores ingresados no son válidos intente nuevamente")
+            print("Los valores ingresados no son válidos intente nuevamente", "\n")
             continue
 
         try:
@@ -32,14 +33,14 @@ def main():
             function.show_specific_solution()
 
         except:
-            print("Ocurrio un error con la funcion ingresada, intente nuevamente")
+            print("Ocurrio un error con la funcion ingresada, intente nuevamente", "\n")
             continue
 
         try:
             function.graph() # Grafica la solucion exacta y la solucion aproximada con el metodo de euler
 
         except NameError:
-            print("No se pudo graficar la solución")
+            print("No se pudo graficar la solución", "\n")
             continue
 
         flag = input("Presione enter para continuar o 'Q' para terminar... ")

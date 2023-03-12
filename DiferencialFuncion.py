@@ -96,18 +96,21 @@ class DiferencialFunction(object): # Ecuaciones ordinarias diferenciales de prim
         Muestra la ecuacion diferencial con el metodo sympy.pprint para mejor visualizacion
         """
         sympy.pprint(self.eq)
+        print("\n")
 
     def show_general_solution(self) -> None:
         """
         Muestra la solucion general con el metodo sympy.pprint para mejor visualizacion
         """
         sympy.pprint(self.solve_general())
+        print("\n")
 
     def show_specific_solution(self) -> None:
         """
         Muestra la solucion especifica con el metodo sympy.pprint para mejor visualizacion
         """
         sympy.pprint(self.solve_specific())
+        print("\n")
 
 
 
