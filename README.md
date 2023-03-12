@@ -59,5 +59,6 @@ A list of technologies used within the project:
 ```
 $ git clone https://github.com/JuanDavidPalaciosCh/SimuladorMetodoEuler.git
 $ cd ../path/to/the/file
+$ py -m pip install -r requirements.txt
 $ py main.py
 ```
