@@ -14,7 +14,7 @@ El programa nos permite comparar el metodo numerico de Euler con la solución es
 El programa simula el metodo de euler para resolver ecuaciones diferenciales ordinarias de primer orden. El programa permite ingresar la ecuacion diferencial, el valor inicial y el intervalo de tiempo para poder graficar la solucion exacta de la ecuacion diferencial y la solucion aproximada por el metodo de Euler.
 
 <a name="example"></a>
-##Ejemplo de uso:
+## Ejemplo de uso:
 ***
 Input:
 ```
