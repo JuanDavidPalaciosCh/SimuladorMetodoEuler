@@ -1,6 +1,6 @@
 # Simulador metodo de euler
 ***
-El programa nos permite comparar el metodo numerico de Euler con la solución especifica haciendo uso de la librería Matplotlib y Sympy, para poder ingresar la función a resolver de una ecuación de tipo y'(x) = f(x, y)
+El programa nos permite comparar el metodo numerico de Euler con la solución especifica haciendo uso de la librería Matplotlib y Sympy, para poder ingresar la función a resolver de una ecuación de tipo y'(x) = f(x, y), para más información visita el <a href="https://github.com/JuanDavidPalaciosCh/SimuladorMetodoEuler/blob/main/assets/SimuladorEqDiferenciales-JuanDavidPalacios.pdf">documento<a>.
 
 ## Table of Contents
 1. [Información general](#general-info)
